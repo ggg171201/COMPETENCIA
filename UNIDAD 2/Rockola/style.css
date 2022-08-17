@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(IMG/Fondo.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.cont{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 600px;
+    width: 1200px;
+    position: absolute;
+    border-color: 10px solid black;
+
+}
+.texto{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 119, 255);
+    position: absolute;
+}
+.money{
+    margin-top: 255px;
+    margin-left: 50px;
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    z-index: 1;
+}
+.bmoney{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-image: url(IMG/monedas.png);
+    background-size: cover;
+}
+#rocola{
+    top: 204px;
+    left: 440px;
+    position: absolute;
+}
+.listaCanciones{
+    margin-top: 50px;
+    margin-left: 690px;
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    background-color: black;
+    text-align: center;
+}
+.btns{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    width: 500px;
+    height: 33px;
+    cursor: pointer;
+    background: linear-gradient(225deg, rgb(6, 148, 230) 1%, rgb(40, 198, 209) 25%, rgb(81, 128, 132) 50%, rgb(92, 197, 146) 80%, rgb(43, 230, 149) 100%);
+}
+#list{
+    color: aqua;
+}
